@@ -1,0 +1,7 @@
+.wrapper {
+  @apply bg-gray-200 p-4;
+}
+
+.container {
+  @apply container mx-auto;
+}
