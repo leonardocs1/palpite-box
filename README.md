@@ -19,7 +19,7 @@ npm run dev
 
 Criamos o layout utilizando o Figma. Você pode encontrar o arquivo [aqui](https://www.figma.com/file/EIf0JeBLHkoxaHWvUf4IXQ/palpite-box?node-id=0%3A1).
 
-## Criando as Credenciais
+## Criando as Credenciais:
 
 Para criar as credenciais para ser utilizada com a Api do Google, acesse o seguinte endereço: [aqui](https://console.cloud.google.com).
 
@@ -40,6 +40,14 @@ SHEET_DOC_ID=id da planilha
 rapidly building custom designs.
 * [Figma](https://figma.com/) - Online prototyping tool.
 * [Google Sheets](https://drive.google.com) - Planilhas online do Google
+
+## Como contribuir para o projeto:
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
 
 ## Author:
 
