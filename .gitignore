@@ -1,5 +1,6 @@
 credentials.json
 .next
+.env.local
 
 # Logs
 logs
