@@ -1,9 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
+import Head from 'next/dist/shared/lib/head'
+import PageTitle from '../components/PageTitle'
 
 const Sobre = () => {
   return (
     <div>
+      <PageTitle title='Sobre' />
       <h1>Sobre</h1>
       <div>
         <Link href="/">

@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import Head from 'next/head'
+import PageTitle from '../components/PageTitle'
 
 const Pesquisa = () => {
   const [form, setForm] = useState({
@@ -39,12 +41,13 @@ const Pesquisa = () => {
 
   return (
     <div className='pt-6'>
+      <PageTitle title='Pesquisa' />
       <h1 className='text-center font-bold my-4 text-2xl'>Críticas e Sugestões</h1>
       <p className='text-center mb-6'>O estabelecimento X sempre busca por atender melhor seus clientes.<br />
         Por isso, estamos sempres abertos a ouvir sua opinião.
       </p>
       {!sucess && <div className='w-1/5 mx-auto'>
-        <label className='font-bold'>Seu nome:</label>
+        <label className='font-bold' required='required'>Seu nome:</label>
         <input type='text' className='p-4 block shadow bg-blue-100 my-2 rounded' placeholder='Nome' onChange={onChange} name='Nome' value={form.Nome}></input>
         <label className='font-bold'>E-mail:</label>
         <input type='email' className='p-4 block shadow bg-blue-100 my-2 rounded' placeholder='Email' onChange={onChange} name='Email' value={form.Email} ></input>
