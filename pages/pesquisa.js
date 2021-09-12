@@ -46,7 +46,7 @@ const Pesquisa = () => {
       <p className='text-center mb-6'>O estabelecimento X sempre busca por atender melhor seus clientes.<br />
         Por isso, estamos sempres abertos a ouvir sua opinião.
       </p>
-      {!sucess && <div className='w-1/5 mx-auto'>
+      {!sucess && <div className='mx-8 lg:w-1/5 lg:mx-auto md:w-1/5 md:mx-auto'>
         <label className='font-bold' required='required'>Seu nome:</label>
         <input type='text' className='p-4 block shadow bg-blue-100 my-2 rounded' placeholder='Nome' onChange={onChange} name='Nome' value={form.Nome}></input>
         <label className='font-bold'>E-mail:</label>
@@ -67,7 +67,7 @@ const Pesquisa = () => {
         </div>
         <button onClick={save} className='bg-blue-400 px-12 py-4 font-bold rounded-lg shadow-lg hover:shadow mb-4'>Salvar</button>
       </div>}
-      {sucess && <div className='w-1/5 mx-auto'>
+      {sucess && <div className='mx-8 lg:w-1/5 lg:mx-auto md:w-1/5 md:mx-auto'>
         <p className='mb-6 text-center bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3'>Obrigado por contribuir com sua sugestão ou crítica</p>
         {
           retorno.showCoupon && <div className='text-center border p-4 m-4'>
